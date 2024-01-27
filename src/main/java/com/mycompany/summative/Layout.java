@@ -73,6 +73,7 @@ public class Layout extends JFrame {
                 circlePanel.setY(600);
                 circlePanel.drawCircle();
             }
+            
             else{
                 circlePanel.setX(440);
                 circlePanel.setY(440);
