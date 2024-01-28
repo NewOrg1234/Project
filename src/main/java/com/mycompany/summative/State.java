@@ -9,9 +9,9 @@ package com.mycompany.summative;
  * @author rashi
  */
 import java.util.ArrayList;
- 
+
 public class State extends Province {
-  public ArrayList<State> allStates<>();
+    public ArrayList<State> allStates = new ArrayList<>();
     public State(String stateName, int statePopulation, int stateArea, double stateLatitude, double stateLongitude)
     {
       name = stateName;

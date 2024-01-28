@@ -79,13 +79,13 @@ public class Province
     public void loadProvinces()
     {
       Province alberta = new Province("Alberta", 4262635, 661848, 53.9333, -116.5765);
-      Province britishColumbia = new Province("British Columbia", 5000879, 944.735, 53.7267, -127.6476);
-      Province manitoba = new Province("Manitoba", POP, 1342153, 53.7609, -98.8139);
+      Province britishColumbia = new Province("British Columbia", 5000879, 944735, 53.7267, -127.6476);
+      Province manitoba = new Province("Manitoba", 1342153, 1342153, 53.7609, -98.8139);
       Province newBrunswick = new Province("New Brunswick", 775610, 72908, 46.5653, -66.4619);
       Province newfoundlandAndLabrador = new Province("Newfoundland and Labrador", 510550, 405212, 53.1355, -57.6604);
       Province novaScotia = new Province("Nova Scotia", 969383, 55284, 44.6810, -63.7443);
-      Province ontario = new Province("Ontario", 1422394, 1076395, 45.4183, 51.2538, -85.3232);
-      Province princeEdwardIsland = new Province("Prince Edward Island", POP, 5660, 46.5107, -63.4168);
+      Province ontario = new Province("Ontario", 1422394, 1076395, 51.2538, -85.3232);
+      Province princeEdwardIsland = new Province("Prince Edward Island", 154331, 5660, 46.5107, -63.4168);
       Province quebec = new Province("Quebec", 8501833, 1542056, 52.9399, -73.5491);
       Province saskatchewan = new Province("Saskatchewan", 1132505, 651036, 52.9399, -106.4509);
     }

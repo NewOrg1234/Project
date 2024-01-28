@@ -11,10 +11,9 @@ package com.mycompany.summative;
 import java.util.ArrayList;
  
 public class Territory extends Province {
-  public ArrayList<Territory> allTerritories<>();
- 
-  public Territory(String terName, int terPopulation, int terArea, double terLatitude, double terLongitude)
-  {
+  public ArrayList<Territory> allTerritories = new ArrayList<>();
+
+  public Territory(String terName, int terPopulation, int terArea, double terLatitude, double terLongitude) {
     name = terName;
     population = terPopulation;
     area = terArea;
@@ -22,12 +21,13 @@ public class Territory extends Province {
     longitude = terLongitude;
     allTerritories.add(this);
   }
-  public void loadTerritories()
-  {
+
+  public void loadTerritories() {
     Territory northwestTerritories = new Territory("Northwest Territories", 41070, 1346106, 64.8255, -124.8457);
     Territory nunavut = new Territory("Nunavut", 36858, 2093190, 70.2998, -83.1076);
     Territory yukon = new Territory("Yukon", 40232, 482443, 64.2823, -13);
   }
+}
  
  
  

@@ -26,7 +26,7 @@ public class CirclePanel extends JPanel {
         super.paintComponent(g);
         if(shouldDrawCircle){
             g.setColor(Color.RED);
-            g.fillOval(x,y,50,50);
+            g.fillOval(x,y,15,15);
         }
     }
     
