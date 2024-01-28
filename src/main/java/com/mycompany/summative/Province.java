@@ -8,7 +8,8 @@ import java.util.ArrayList;
 
 /**
  *
- * @author rashi
+ * @author morgana
+ * @author alleena
  */
 public class Province
   {
@@ -20,7 +21,22 @@ public class Province
     public ArrayList<Province> allProvinces = new ArrayList<Province>();
  
     //
- 
+    public String provName;
+    public int provPopulation;
+    public int provArea;
+    public double provLatitude;
+    public double provLongitude;
+    
+    public Province(){
+        provName="";
+        provPopulation=0;
+        provArea=0;
+        provLatitude=0;
+        provLongitude=0;
+        allProvinces.add(this);
+        
+        
+    }
     public Province(String provName, int provPopulation, int provArea, double provLatitude, double provLongitude)
     {
       name = provName;
@@ -30,10 +46,8 @@ public class Province
       longitude = provLongitude;
       allProvinces.add(this);
     }
-    public Province()
-    {
-      allProvinces.add(this);
-    }
+
+
     public String getName()
     {
       return name;

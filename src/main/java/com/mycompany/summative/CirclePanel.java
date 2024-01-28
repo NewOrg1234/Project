@@ -10,12 +10,14 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author rashi
+ * @author hareem
  */
 public class CirclePanel extends JPanel {
     private boolean shouldDrawCircle = false;
     private int x;
     private int y;
+    private int cW;
+    private int cH;
     
     public void drawCircle(){
         shouldDrawCircle = true;
@@ -26,7 +28,7 @@ public class CirclePanel extends JPanel {
         super.paintComponent(g);
         if(shouldDrawCircle){
             g.setColor(Color.RED);
-            g.fillOval(x,y,15,15);
+            g.fillOval(x,y,cW,cH);
         }
     }
     
@@ -46,6 +48,20 @@ public class CirclePanel extends JPanel {
      */
     public void setY(int y) {
         this.y = y;
+    }
+
+    /**
+     * @param cW the cW to set
+     */
+    public void setcW(int cW) {
+        this.cW = cW;
+    }
+
+    /**
+     * @param cH the cH to set
+     */
+    public void setcH(int cH) {
+        this.cH = cH;
     }
     
 }

@@ -6,12 +6,20 @@ package com.mycompany.summative;
 
 /**
  *
- * @author rashi
+ * @author morgana
+ * @author alleena
  */
 import java.util.ArrayList;
 
 public class State extends Province {
     public ArrayList<State> allStates = new ArrayList<>();
+    public String stateName;
+    public int statePopulation;
+    public int stateArea;
+    public double stateLatitude;
+    public double stateLongitude;
+    
+    
     public State(String stateName, int statePopulation, int stateArea, double stateLatitude, double stateLongitude)
     {
       name = stateName;

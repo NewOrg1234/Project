@@ -6,7 +6,8 @@ package com.mycompany.summative;
 
 /**
  *
- * @author rashi
+ * @author morgana
+ * @author alleena
  */
 import java.util.ArrayList;
  
